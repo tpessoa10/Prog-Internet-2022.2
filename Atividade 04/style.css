@@ -1,0 +1,43 @@
+#div1{
+    height: 100px;
+    background-image: radial-gradient(red 0, blue, green 100%);
+}
+
+#div2{
+    height: 100px;
+    background-image: conic-gradient(green, blue, red);
+}
+
+#div3{
+    height: 100px;
+    background-image: linear-gradient(to right, violet,indigo,blue,green,yellow,orange,red);
+}
+
+#div4{
+    height: 100px;
+    background-image: radial-gradient(rgb(255, 0, 0),rgb(0, 0, 255), rgb(2, 153, 2))
+}
+
+div>h1{
+    color:brown
+}
+
+div>h2{
+    color:darkslategray
+}
+
+div>h1,h2,p{
+    font-family: Arial;
+}
+
+#div5{
+    background-color: brown;
+}
+
+#div5>h1{
+    color: white;
+}
+
+#div6{
+    background-image: linear-gradient(to left, black, white);
+}
