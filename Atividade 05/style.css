@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    font-size: 16px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to left, #b3cce2, #D9CCC1);
+
+}
+p{
+    font-size: 1rem;
+    color: #024059;
+}
+h1{
+    text-align: center;
+    background-color: #005eb0;
+    color: #D9CCC1;;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+.autor{
+    text-align: right;
+}
+h2{
+    font-size: 1.5rem;
+    color:#D9CCC1;
+    background-color:#005eb0;
+}
+
+.data{
+    text-align: left;
+    color: darkslategray;
+    font-size: .8rem;
+}
+#cit{
+    color: black;
+    font-weight: bold;
+}
+.motivacional{
+    font-family: 'Tilt Neon', cursive;
+    line-height:  1.5rem;
+}
+div{
+    position: relative;
+}
+div::before{
+    position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid;
+  border-color: inherit;
+  
+  -webkit-transform:rotate(-5deg);
+  -moz-transform:rotate(-5deg);
+  -ms-transform:rotate(-5deg);
+  -o-transform:rotate(-5deg);
+  transform:rotate(-5deg);
+}
