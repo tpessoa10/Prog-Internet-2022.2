@@ -1,0 +1,2 @@
+Questao 04 - textContent altera apenas texto ignorando tags HTML, enquanto innerHTML é capaz de alterar alem
+de texto, elementos HTML.
