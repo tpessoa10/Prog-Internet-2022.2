@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+h2,h4{
+    font-family:'Poppins', sans-serif;
+}
+span{
+    padding-bottom: 2px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+h2,h4,span{
+    margin-left: 5px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#cardapio-dia{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#cardapio-semanal{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#cardapio-semanal>button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color:white;
+    border-radius:3px;
+    border:1px solid lightgreen;
+    display:inline-block;
+    cursor:pointer;
+    border: solid 2px green;
+    color:#000;
+    font-size:17px;
+    width: 15vw;
+    height: 40px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#cardapio-semanal>button:hover{
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    border-radius: 8px;
+}
+
+.cardapio>button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:lightgreen;
+    border-radius:10px;
+    border:1px solid lightgreen;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    font-size:13px;
+    width: 5vw;
+    height: 23px;
+    padding: 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627; 
+    position: relative;
+}
+.cardapio>button:hover{
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.cardapio.almoco{
+    background-color: #5ed64b;
+}
+
+.cardapio.janta{
+    background-color: green;
+    color: white;
+}
+
+.cardapio.almoco > button {
+    background-color: green;
+    color: white;
+}
+.cardapio>button>p{
+    position: relative;
+    bottom:20px;
+    width: 150%;
+    right: 12px;
+    font-size: 12px;
+}
+
+#opcoes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+#opcoes>button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color:lightgreen;
+    border-radius:3px;
+    border:1px solid lightgreen;
+    display:inline-block;
+    cursor:pointer;
+    color:#000;
+    font-family:Arial;
+    font-size:17px;
+    width: 65%;
+    height: 40px;
+    padding: 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627; 
+}
+
+#opcoes>button:hover{
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+
+#opcoes>button:nth-child(3){
+    background-color:tomato;
+}
+
+#opcoes>button:nth-child(3):hover{
+    background:linear-gradient(to bottom, #d10000 5%, #7a1616 100%);
+
+}
+
+
+@media screen and (max-width:1050px) {
+    #opcoes>button{
+        width: 65%;
+    }
+    #cardapio-semanal{
+        width:100%;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    #cardapio-semanal>button{
+        width: 40%;
+    }
+}
